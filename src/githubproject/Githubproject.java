@@ -14,6 +14,7 @@ public class Githubproject {
 		System.setProperty("webdriver.chrome.driver","/usr/local/bin/chromedriver");
 		WebDriver driver=new ChromeDriver();
 		driver.get("http://www.facebook.com");
+		System.out.println("Hi");
 		
 
 	}
